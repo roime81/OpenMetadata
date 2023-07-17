@@ -306,8 +306,8 @@ email:
 
 applicationConfig:
   logoConfig:
-    customLogoUrlPath: ${OM_CUSTOM_LOGO_URL_PATH:-""} #login page logo
-    customMonogramUrlPath: ${OM_CUSTOM_MONOGRAM_URL_PATH:-""} #nav bar logo
+    customLogoUrlPath: ${OM_CUSTOM_LOGO_URL_PATH:-"https://simedarbyplantation.com/wp-content/uploads/2022/11/sdp-x-sdo-logo.png"} #login page logo
+    customMonogramUrlPath: ${OM_CUSTOM_MONOGRAM_URL_PATH:-"https://simedarbyplantation.com/wp-content/uploads/2021/11/shutterstock_1077482261-C.jpg"} #nav bar logo
   loginConfig:
     maxLoginFailAttempts: ${OM_MAX_FAILED_LOGIN_ATTEMPTS:-3}
     accessBlockTime: ${OM_LOGIN_ACCESS_BLOCK_TIME:-600}
